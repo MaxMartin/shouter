@@ -10,7 +10,7 @@
                  (anti-forgery/anti-forgery-field)
                  (form/label "shout" "What do you want to SHOUT?")
                  (form/text-area "shout")
-                 (form/submit-button "SHOUT!"))])
+                 (form/submit-button "SHOUT! SHOUT! LET IT ALL OUT!"))])
 
 (defn display-shouts [shouts]
   [:div {:class "shouts sixteen columns alpha omega"}
